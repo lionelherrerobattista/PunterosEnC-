@@ -24,7 +24,7 @@ int main()
      }
      //i=200 me recorre toda la memoria y sigue leyendo basura. El puntero no tiene limite
 
-     //Para mostrarlo NO necesito recorrerlo
+     //Para mostrarlo NO necesito recorrerlo:
      printf("\n%s", apellido);
 
 
