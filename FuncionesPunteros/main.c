@@ -27,6 +27,7 @@ int main()
 
 void ponerEnCero(int *num1)
 {
+    //Pasa por referencia entonces, se puede poner en cero
     *num1=0;
 }
 
