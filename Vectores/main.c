@@ -15,7 +15,7 @@ int main()
     numeros[1]=99;
     numeros[2]=999;
     printf("\nPuntero:%d",*(puntero-2));
-    //Se puede seguir accediendo a memoria
+    //Aritmética de punteros permite seguir accediendo a memoria y manipularla. Me puedo exceder. Hay que decirle hasta donde
     printf("\nPuntero:%d",*(puntero+1));
     printf("\nPuntero:%d",*(puntero+2));
     printf("\nPuntero:%d",*(puntero+3));
