@@ -9,7 +9,7 @@ int main()
     int numeroDos;
     numero=66;
     //&numeroDos=&numero;
-    punteroNumero=&numero;
+    punteroNumero=&numero; //Le asigno la memoria de una variable para que tenga valor
     numeroDos=&numero;//Le asigno la dirección de memoria
     printf("\na-%d",numeroDos);
     numeroDos=*punteroNumero;//Le asigno valor
